@@ -1,0 +1,16 @@
+doctype html
+html
+    head
+        title= title
+        style
+            | html, body {height: 100%; margin: 0; padding: 0;}
+            | #root {height: 100%; box-sizing: border-box; font-family: 'Open Sans', 'Arial', sans-serif;}
+        block head-stuff
+    body
+        div#root
+            | !{html}
+        if ( html && preloadedState )
+            script.
+                window.PRELOADED_STATE = !{preloadedState}
+            script(src="/js/bundle.js")
+        block content
