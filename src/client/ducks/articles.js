@@ -27,10 +27,10 @@ const mockResponse = [
         createdAt: '2018-02-03T04:41:45.586Z',
         updatedAt: '2018-02-03T04:41:45.586Z',
         id: '5a753d89aa7586161cef2403',
-        title: "Zhabinsky's birthday note",
-        author: 'Yury Karalkou',
+        title: "dldldldldld",
+        author: 'flfllf',
         views: 1,
-        body: "Zhabinsky's birthday was on 28.01.2018",
+        body: "fkfkfk",
         __v: 0,
     },
     {
